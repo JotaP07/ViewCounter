@@ -1,5 +1,5 @@
 <?php
-// Desative o cache para que a imagem seja buscada sempre
+// Desativa o cache para que a imagem seja buscada sempre
 $timestamp = gmdate("D, d M Y H:i:s") . " GMT-3";
 header("Expires: $timestamp");
 header("Last-Modified: $timestamp");
